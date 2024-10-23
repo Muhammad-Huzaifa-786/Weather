@@ -1,0 +1,123 @@
+::placeholder {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.container {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerXSLyIQQLdskn41dy8ysxGgq7DmEXTt9Aw&s');
+    max-width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    color: brown;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.weather-info p {
+    
+ /* background-color: blue; */
+ width: 140px;
+ height:50px ;
+ overflow-wrap: break-word;
+
+}
+.weather-info {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(187, 209, 164);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+@media (max-width:400px) {
+.weather-info {
+    display: block;
+
+}
+ 
+.weather-info p {
+    margin: 20px 0 20px 0;
+}
+
+#search{
+    width: 160px;
+    font-size: 18px;
+}
+
+#btn{
+    width: 70px;
+    font-size: 18px;
+}
+
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.weather-info img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+#para {
+    font-size: 25px;
+    background-color: white;
+    width: max-content;
+    border-radius: 10px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+button {
+    border-radius: 10px;
+    height: 44px;
+    width: 90px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 190px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+}
